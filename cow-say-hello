@@ -1,11 +1,12 @@
-#!/usr/bin/env bun
+#!/usr/bin/env bash
 
-// @ts-ignore
-import * as cowsay from "cowsay"
-
-let output: string = cowsay.say({
-  text: 'Hello!'
-})
-
-console.log(output)
-
+cat <<'EOF'
+ ________
+< Hello! >
+ --------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+EOF
